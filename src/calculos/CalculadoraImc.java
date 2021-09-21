@@ -18,7 +18,7 @@ public class CalculadoraImc {
 		} else if(imc > 25 && imc < 30) {
 			System.out.println("Classificação: Sobrepeso.");
 		} else if(imc > 30 && imc < 35) {
-			System.out.println("Classificação: ");
+			System.out.println("Classificação: Obesidade grau I.");
 		} else if(imc > 35 && imc < 40) {
 			System.out.println("Classificação: Obesidade grau II.");
 		} else if(imc > 40 || imc == 40) {
